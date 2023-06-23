@@ -1,0 +1,40 @@
+header {
+    background-image: url("../images/news_top.png");
+}
+
+main {
+    position: absolute;
+    top: 150px;
+    width: 100vw;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.article {
+    width: 45rem;
+    margin: 0 auto;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+}
+
+.day {
+    margin: 2rem 0;
+}
+
+.back_button {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer {
+    top:650px;
+}
+

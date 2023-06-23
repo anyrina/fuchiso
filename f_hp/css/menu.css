@@ -1,0 +1,80 @@
+
+.nav {
+    position: fixed;
+    z-index: 10;
+}
+
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+#drawer_open {
+    position: absolute;
+    margin-top: 2rem;
+    left: 91.5vw;
+}
+
+.drawer_open {
+display: flex;
+height: 5rem;
+width: 5rem;
+color: white;
+align-items: center;
+position: relative;
+z-index: 100;/* 重なり順を一番上にする */
+cursor: pointer;
+background-color: rgb(255, 0, 0);
+border-radius: 50%;
+border: 0.5rem solid gainsboro;
+}
+
+.drawer_open p {
+    width: 100%;
+    text-align: center;
+}
+
+/*menu*/
+                        
+/* メニューのデザイン*/
+#nav_content {
+    margin-top: 30px;
+}
+
+.nav_content {
+width: 160px;
+height: 550px;
+position: fixed;
+text-align: center;
+top: 3rem;
+right: -200px; /* メニューを画面の外に飛ばす */
+z-index: 99;
+background: rgb(255, 253, 198);
+transition: 0.5s;
+opacity: 0.95;
+}
+
+/* メニュー黒ポチを消す */
+.nav_list {
+list-style: none;
+position: absolute;
+left: -1.4rem;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .nav_content {
+right: 0;/* メニューを画面に入れる */
+}
+
+.nav_item {
+margin: 50px 0;
+}
+
+.nav_item p{
+display: inline-block;
+}
+
+.nav_item a {
+color: black;
+}

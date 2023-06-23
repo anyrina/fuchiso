@@ -1,0 +1,59 @@
+footer {
+    width: 100vw;
+    position: absolute;
+    top:2650px;
+    background-color: white;
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.footer_links {
+    display: flex;
+    width: 50vw;
+    height: 200px;
+}
+
+.sns {
+    display: flex;
+}
+
+.sns_links {
+    width: 15rem;
+    margin-left: 3rem;
+}
+
+.instagram {
+    margin: 2rem 0;
+}
+
+.icon_name {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.shop_info {
+    position: relative;
+    width: 50vw;
+    height: 200px;
+    background-color: rgb(218, 195, 177);
+}
+
+table {
+    position: absolute;
+    top: 1rem;
+    left: 11rem;
+    line-height: 2em;
+}
+
+table th {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+#copy {
+    text-align: center;
+
+}

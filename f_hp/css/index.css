@@ -1,0 +1,147 @@
+header {
+    background-image: url("../images/top.png");
+}
+
+main {
+    position: absolute;
+    top: 110vh;
+    width: 100vw;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+.content {
+    margin: 5rem 0;
+}
+
+.content_p {
+    position: absolute;
+    width: 70rem;
+    top: 10rem;
+    font-size: 5em;
+    font-family: "851マカポップ";
+    z-index: 1;
+}
+
+.back_white {
+    position: absolute;
+    width: 45rem;
+    height: 7em;
+    top: 10rem;
+    left: 13rem;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+.back_white2 {
+    position: absolute;
+    width: 53rem;
+    height: 7em;
+    top: 10rem;
+    left: 9rem;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.h1_bor {
+    display: flex;
+}
+
+.border {
+    width: 10rem; 
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+    border-top: solid 1px black;
+}
+
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news a {
+    display: block;
+}
+
+.news_article {
+    margin-bottom: 1em;
+}
+
+.news_view {
+    margin-top: 3em;
+    margin-right: 10rem;
+}
+
+.view {
+    position: absolute;
+    bottom: 5rem;
+    width: 70rem;
+}
+
+.view a {
+    margin: 0 auto;
+
+}
+
+.concept_items {
+    position: relative;
+    width: 70rem;
+    height: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/concept_back.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.web_items {
+    position: relative;
+    width: 70rem;
+    height: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/web_back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.corums {
+    padding-bottom: 5rem;
+}
+
+.corum_item {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem;
+}
+
+.corum_item a {
+    text-align: center;
+    width: 20rem;
+}
+
+.corums_title {
+    padding-top: 2rem;
+    line-height: 2em;
+}
+
+.corums_img {
+    width: 20rem;
+    height: 12rem;
+    margin: 0 auto;
+}
+
+.corum_item {
+    display: flex;
+} 

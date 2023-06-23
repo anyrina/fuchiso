@@ -1,0 +1,49 @@
+header {
+    background-image: url("../images/web_back.png");
+    background-position: top;
+}
+
+main {
+    position: absolute;
+    top: 150px;
+    width: 100vw;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.corum {
+    width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgb(226, 255, 245);
+}
+
+.corum a {
+    display: flex;
+}
+
+.corum p {
+    margin: 7rem 0 5rem 5rem;
+}
+
+.corum_items img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.back_button {
+    text-align: center;
+}
+
+footer {
+    top:1050px;
+}
+
